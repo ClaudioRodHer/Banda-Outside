@@ -1,0 +1,332 @@
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Futura-Bold', arial;
+    src: url("http://allfont.es/allfont.css?fonts=futura-bold");
+}
+body{
+
+    background: black;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Futura-Bold', arial;
+    color: white;
+
+}
+.contenedor-form .container{
+    position: relative;
+    background: rgba(0,0,0,.7);
+    width:100%;
+    max-width: 600px;
+    margin: 48px  auto;
+    color: #fff;
+    border-radius: 5px;
+
+    padding: 40px;
+}
+
+.contenedor-form .toggle{
+    position:absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size:  12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #ff43c6;
+    border-bottom: 2px solid #ff43c6;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.contenedor-form .toggle span{
+    letter-spacing: 1px;
+}
+
+.contenedor-form .toggle:hover{
+    border-top: 2px solid #9b0b91;
+    border-bottom: 2px solid #9b0b91;
+}
+
+.contenedor-form h2{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1px;
+    color: #fff;
+}
+.contenedor-form input[type="text"],
+.contenedor-form input[type="date"],
+.contenedor-form input[type="time"],
+.contenedor-form input[type="textarea"],
+.contenedor-form input[type="submit"],
+.contenedor-form input[type="datetime-local"],
+.contenedor-form input[type="form-check"],
+.contenedor-form input[type="btn btn-outline-secondary"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="custom-select"]{
+    outline:none;
+    background: rgba(0,0,0,.5);
+    display:blok;
+    width: 50%;
+    padding :10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #29591f;
+    font-family:  'Futura-Bold', arial;
+    font-size: 14px;
+    font-weight: normal;
+    margin:0 0 10px 0;
+    transition: all .5s ease;
+}
+.contenedor-form input[type="text"]:focus,
+.contenedor-form input[type="password"]:focus,
+.contenedor-form input[type="date"]:focus,
+.contenedor-form input[type="time"]:focus {
+    border-bottom: 4px solid #ffec00;
+}
+.contenedor-form select[class="select"]{
+  outline:none;
+  background: rgba(0,0,0,.5);
+  display:blok;
+  width: 50%;
+  padding :10px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 4px solid #29591f;
+  font-family:  'Futura-Bold', arial;
+  font-size: 14px;
+  font-weight: normal;
+  margin:0 0 10px 0;
+  transition: all .5s ease;
+}
+.contenedor-form select[class="select"]:focus{
+  outline:none;
+  background: rgba(0,0,0,.5);
+  display:blok;
+  width: 50%;
+  padding :10px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 4px solid #ffec00;
+  font-family:  'Futura-Bold', arial;
+  font-size: 14px;
+  font-weight: normal;
+  margin:0 0 10px 0;
+  transition: all .5s ease;
+}
+
+.contenedor-form input[type="button"],
+.contenedor-form input[type="submit"]{
+    background: #29591f;
+    color: #fff;
+    border: none;
+    width: 30%;
+    padding: 10px 0;
+    font-weight: normal;
+    font-family:  'Futura-Bold', arial;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.contenedor-form input[type="button"]:hover,
+.contenedor-form input[type="submit"]:hover{
+    background: #ffec00;
+    color: #29591f;
+}
+
+.contenedor-form .reset-password{
+    background: #ff43c6;
+    width: 110%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.contenedor-form .reset-password a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.contenedor-form .formulario{
+    padding: 40px;
+    display:none;
+
+}
+/*muestra segundo formulario*/
+.contenedor-form .formulario:nth-child(2){
+    display: block;
+}
+.contenedor-form .data-toggle{
+    background: #ff43c6;
+    color: #fff;
+}
+.contenedor-form.input-group{
+    outline:none;
+    background: rgba(0,0,0,.5);
+    display:blok;
+    width: 100%;
+    padding :10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #9b0b91;
+    font-family:  'Futura-Bold', arial;
+    font-size: 14px;
+    font-weight: normal;
+    margin:0 0 20px 0;
+    transition: all .5s ease;
+}
+.contenedor-form.nav-pills{
+	background: #ff43c6;
+}
+
+footer h3{
+  font-family: Segoe Print;
+}
+
+.fb-comments{
+  border-style: solid;
+  border-color: #8E0202;
+  box-shadow: 10px 10px 10px #1C1C1C ;
+
+}
+
+/*----------------------ESTO ES PARA MOVIL Y BARA DE NAVEGAcION------------------------------------*/
+
+header nav ul {
+	list-style:none;
+
+}
+
+header nav ul li {
+	display:inline-block;
+	position: fixed;
+
+}
+
+header nav ul li:hover {
+	background:#8E0202;
+}
+
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+
+
+}
+
+header nav ul li a span {
+	margin-right:10px;
+
+
+}
+
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+
+section{
+    padding: 20px;
+}
+
+footer{
+    position: relative;
+    bottom:-450px;
+    background: #000000;
+    color: #fff;
+  }
+
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:70px;
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:#000000;
+
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+
+	}
+
+
+
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+
+
+	}
+
+	header navbar ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,77,198,.5);
+
+	}
+
+	header nav ul li a {
+		display: block;
+
+	}
+
+	header nav ul li:hover .children {
+		display: none;
+	}
+
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+
+	header nav ul li .caret {
+		float: right;
+	}
+
+
+
+}
+/*------------------

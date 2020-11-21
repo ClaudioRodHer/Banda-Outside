@@ -1,0 +1,29 @@
+img{
+  position: relative;
+
+  min-width: 150%;
+  min-height: 150%;
+
+  top: 30%;
+  left: 150%;
+}
+audio{
+position: relative;
+padding: inherit;
+  min-width: 30%;
+  min-height: 30%;
+
+  top: 400%;
+  left: 5%;
+}
+
+.albums{
+
+    padding: 20px;
+    margin-top:50px;
+    opacity: 1;
+    transition: opacity;
+}
+.albums.show{
+  opacity: 1;
+}

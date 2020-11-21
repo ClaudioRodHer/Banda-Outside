@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+}
+video{
+  position: fixed;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  top: 0%;
+  left: 0%;
+
+  transform: translateX(-50%) translateY(-50);/*esta linea es para centrar el video*/
+z-index: -1;/*PARA QUE SIEMPRE ESTE DETRAS*/
+volume:10%;
+}
+
+main{
+  width: 30%;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 20px;
+  margin: 5%;
+}
+/*img{
+  position: fixed;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  top: 0%;
+  left: 0%;
+
+  transform: translateX(-50%) translateY(-50);/*esta linea es para centrar el video*
+  z-index: -1;/*PARA QUE SIEMPRE ESTE DETRAS*
+}*/
+footer{
+
+background: #000000;
+color: #fff;
+}
